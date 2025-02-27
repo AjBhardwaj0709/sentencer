@@ -3,6 +3,8 @@ import 'package:http/http.dart' as http;
 
 class DataFetcher {
   // final String apiUrl = "https://api.quotable.io/random";
+
+  
   final String apiUrl = "https://zenquotes.io/api/random";
 
   Future<String> fetchData() async {
